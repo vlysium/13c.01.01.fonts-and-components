@@ -11,32 +11,46 @@
   --color-dark: rgb(64, 64, 64);
   --color-light: rgb(194, 194, 194);
   --color-lighter: rgb(255, 255, 255);
+
+  --body-text: "Roboto", sans-serif;
+  --headline: "Roboto Slab", serif;
   /* you could add an accent color for CTAs and anchor tags ;-) */
 }
 
 /* Fonts */
 html {
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--color-darker);
+  font-family: var(--headline);
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 h1 {
-
+  font-size: 3.375rem;
+  padding-bottom: 1rem;
 }
 
 h2 {
-
+  font-size: 2.25rem;
+  padding-bottom: 0.75rem;
 }
 
 h3 {
-
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-bottom: 0.5rem;
 }
 
-p{
+p {
   color: var(--color-dark);
+  font-family: var(--body-text);
+  line-height: 1.5;
 }
 
 /* UI Elements */
@@ -49,6 +63,7 @@ button {
   text-decoration: none;
   background-color: var(--color-darker);
   color: var(--color-lighter);
+  cursor: pointer;
 }
 
 .light_button {
@@ -56,7 +71,7 @@ button {
   color: var(--color-darker);
 }
 
-input[type=text] {
+input[type="text"] {
   box-sizing: border-box;
   width: 250px;
   height: 2rem;
@@ -68,7 +83,7 @@ input[type=text] {
 }
 
 /* Menu */
-nav{
+nav {
   display: flex;
   padding: 0.5rem;
   justify-content: space-between;
@@ -181,7 +196,8 @@ footer {
   background-color: var(--color-darker);
 }
 
-footer h2, footer h3{
+footer h2,
+footer h3 {
   color: var(--color-lighter);
 }
 
