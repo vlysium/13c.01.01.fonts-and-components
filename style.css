@@ -187,6 +187,10 @@ header {
   aspect-ratio: 1 / 1;
 }
 
+.card_name {
+  color: var(--color-darker);
+}
+
 .card_mail {
   font-size: 0.9rem;
 }
