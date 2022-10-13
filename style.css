@@ -167,6 +167,10 @@ header {
   --color-dark: rgb(32, 32, 32);
 }
 
+#cards h2 {
+  color: var(--color-darker);
+}
+
 .card {
   display: flex;
   flex-direction: column;
