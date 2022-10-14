@@ -274,8 +274,13 @@ footer h3 {
   color: var(--color-lighter);
 }
 
+footer li {
+  padding-bottom: 0.5rem;
+}
+
 footer a {
   color: var(--color-light);
+  font-family: var(--body-text);
 }
 
 footer section {
